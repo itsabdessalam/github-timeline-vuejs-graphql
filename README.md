@@ -1,4 +1,7 @@
-# github-timeline-vuejs-graphql
+# GitHub Timeline built with Vue.js and GraphQL
+
+>
+
 
 ## Project setup
 ```
