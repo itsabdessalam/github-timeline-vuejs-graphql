@@ -1,7 +1,6 @@
 # GitHub Timeline built with Vue.js and GraphQL
 
->
-
+> Project idea based on <https://github.com/florinpop17/app-ideas/blob/master/Projects/GitHub-Timeline-App.md>
 
 ## Project setup
 ```
