@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>Timeline Card Component</h1>
+		<h1>Footer</h1>
 	</div>
 </template>
 
@@ -8,6 +8,6 @@
 
 <script>
 export default {
-	name: "TimelineCard"
+	name: "Footer"
 };
 </script>

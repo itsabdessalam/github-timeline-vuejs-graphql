@@ -1,15 +1,20 @@
 <template>
 	<div id="app">
-		<Timeline></Timeline>
+		<Header></Header>
+		<router-view />
+		<Footer></Footer>
 	</div>
 </template>
 
 <script>
-import Timeline from "@/pages/Timeline";
+import Header from "@/components/Header";
+
 export default {
 	name: "app",
 	components: {
-		Timeline
+		Header
 	}
 };
 </script>
+<style src="@/assets/fonts/index.scss" lang="scss"></style>
+<style src="@/assets/stylesheets/scss/index.scss" lang="scss"></style>

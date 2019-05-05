@@ -11,6 +11,25 @@ export const USER_REPOSITORIES = gql`
 				nodes {
 					id
 					name
+					url
+					description
+					descriptionHTML
+					shortDescriptionHTML
+					forkCount
+					stargazers {
+						totalCount
+					}
+					languages(
+						first: 1
+						orderBy: {field: SIZE, direction: DESC}
+					) {
+						nodes {
+							name
+							color
+						}
+					}
+					createdAt
+					updatedAt
 				}
 			}
 		}
