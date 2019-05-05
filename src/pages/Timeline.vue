@@ -29,7 +29,7 @@
 				</li>
 			</ul>
 			<div v-else-if="errors.length > 0">
-				<div v-for="error in errors" :key="error.id">
+				<div v-for="(error, index) in errors" :key="index">
 					{{ error }}
 				</div>
 			</div>
