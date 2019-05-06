@@ -25,7 +25,7 @@
 					v-for="repo in user.repositories.nodes"
 					:key="repo.id"
 				>
-					{{ repo.name }}
+					<TimelineCard :repo="repo"></TimelineCard>
 				</li>
 			</ul>
 			<div v-else-if="errors.length > 0">
@@ -42,6 +42,7 @@
 
 <script>
 import {USER_REPOSITORIES} from "../graphql/queries";
+import TimelineCard from "@/components/TimelineCard.vue";
 export default {
 	name: "Timeline",
 	data() {
@@ -52,6 +53,9 @@ export default {
 			clicked: false,
 			errors: []
 		};
+	},
+	components: {
+		TimelineCard
 	},
 	methods: {
 		queryRepos(username) {

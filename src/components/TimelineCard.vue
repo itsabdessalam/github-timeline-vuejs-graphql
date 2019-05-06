@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>Timeline Card Component</h1>
+		<p>{{ currentRepo.name }}</p>
 	</div>
 </template>
 
@@ -8,6 +8,14 @@
 
 <script>
 export default {
-	name: "TimelineCard"
+	name: "TimelineCard",
+	props: {
+		repo: Object
+	},
+	data() {
+		return {
+			currentRepo: this.repo
+		};
+	}
 };
 </script>
