@@ -2,15 +2,15 @@
 	<div>
 		<span class="loader">
 			<svg
-				width="20"
-				height="20"
+				width="35"
+				height="35"
 				viewBox="0 0 30 30"
 				xmlns="http://www.w3.org/2000/svg"
 				data-svg="spinner"
 			>
 				<circle
 					fill="none"
-					stroke="#ffffff"
+					stroke="#f66a0a"
 					cx="15"
 					cy="15"
 					r="14"
