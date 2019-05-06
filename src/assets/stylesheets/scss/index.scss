@@ -1,27 +1,14 @@
-html {
-  *,
-  *:before,
-  *:after {
-    box-sizing: border-box;
-  }
-  &,
-  body {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    font-family: "Circular", "Helvetica", "Arial", sans-serif;
-    font-weight: 400 !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background: #fbfbfb;
+@charset "UTF-8";
 
-    #app {
-      min-width: 500px;
-      min-height: 350px;
-    }
-  }
-}
+/*
+ * Base
+ */
+
+@import "base/base";
+@import "base/normalize";
+@import "base/keyframes";
+
+/*
+ * Components
+ */
+@import "components/component";
