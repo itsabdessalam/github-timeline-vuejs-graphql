@@ -20,8 +20,10 @@ html {
     background: #fbfbfb;
 
     #app {
-      min-width: 500px;
-      min-height: 350px;
+      min-height: 90vh;
+      @media (min-width: 576px) {
+        min-width: 580px;
+      }
     }
   }
 }
