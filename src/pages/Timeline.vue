@@ -82,6 +82,7 @@ export default {
 	input {
 		font-size: 16px;
 		padding: 5px 10px;
+		padding-right: 90px;
 		height: 100%;
 		background: 0 0;
 		border: 0;
