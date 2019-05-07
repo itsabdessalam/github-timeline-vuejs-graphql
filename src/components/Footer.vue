@@ -36,7 +36,7 @@ export default {
 	}
 	a {
 		text-decoration: none;
-		color: #678;
+		color: #495057;
 		transition: all 0.3s cubic-bezier(0.45, 0.05, 0.55, 0.95);
 		&:hover {
 			color: inherit;

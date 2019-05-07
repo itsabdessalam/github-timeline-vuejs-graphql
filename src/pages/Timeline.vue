@@ -41,9 +41,10 @@
 </template>
 
 <script>
-import {USER_REPOSITORIES} from "../graphql/queries";
-import Loader from "@/components/Loader.vue";
-import TimelineCard from "@/components/TimelineCard.vue";
+import {USER_REPOSITORIES} from "@/graphql/queries";
+import Loader from "@/components/Loader";
+import TimelineCard from "@/components/TimelineCard";
+
 export default {
 	name: "Timeline",
 	data() {
@@ -148,8 +149,17 @@ export default {
 			overflow: scroll;
 			padding: 20px 0;
 			list-style: none;
-			padding: 0;
 			margin: 0;
+
+			.timeline-item {
+				&:last-child {
+					.timeline-card {
+						&::before {
+							display: none !important;
+						}
+					}
+				}
+			}
 		}
 		.response {
 			margin: 20px 0;
