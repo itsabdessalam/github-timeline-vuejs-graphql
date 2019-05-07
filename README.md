@@ -6,6 +6,7 @@
 
 Demo: <https://github-user-timeline.netlify.com/>
 
+![preview](./screenshots/screenshot1.png)
 
 ## Project setup
 ```

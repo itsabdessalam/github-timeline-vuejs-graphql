@@ -58,7 +58,7 @@
 		text-align: center;
 	}
 	small {
-		color: #678;
+		color: #495057;
 		text-align: center;
 	}
 	.github-corner {
